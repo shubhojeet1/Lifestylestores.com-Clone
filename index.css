@@ -12,6 +12,7 @@
     font-family: ProximaNova-Semibold,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
     cursor: pointer;
     font-weight: normal;
+    
 }
 #in{
     margin-left: 50px;
@@ -35,11 +36,13 @@ h4{
    cursor: pointer;
    font-size: 15px;
    
+   
 }
 .dropdown-menu {
    position: relative;
    display: inline-block;
    padding-top: 10px;
+ 
    
   
 }
@@ -51,6 +54,7 @@ h4{
    min-width: 160px;
    z-index: 1;
    font-size: 15px;
+   
 
 }
 nav{
@@ -59,7 +63,7 @@ nav{
    align-items: center;
    display: flex;
    background-color: rgb(246, 240, 240);
-  
+   
  
   
 }
@@ -232,6 +236,7 @@ padding-top: 20px;
     width: 80%;
     margin: auto;
     padding-top: 30px;
+    cursor: pointer;
    
    
   
@@ -245,15 +250,21 @@ padding-top: 20px;
     grid-template-columns: repeat(6,1fr);
     grid-template-rows: repeat(2,300px);
     gap: 10px;
+    
 
 
 }
 #gridA>img{
     width: auto;
+   
 
 }
 #gridA>div>h4{
     text-align: center;
+    font-family: "Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-weight: 200;
+    cursor: pointer;
+
 }
 .aftershopborder{
     height: -1px;
@@ -262,10 +273,87 @@ padding-top: 20px;
     margin: auto;
     margin-top: 40px;
 }
-.shop{
-    padding-left: 10px;
-   font-family:ProximaNova-Semibold,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji" ; 
-   font-weight: normal;
+.aftershopborderB{
+    height: -1px;
+    width: 70%;
+    border: 1px solid rgb(247, 243, 243);
+    margin: auto;
+    margin-top: 40px;
+}
+.shop>h2{
+    padding-left: 130px;
+    font-family: "Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-weight: 400;
+   
+    line-height: 1.2;
    margin-left: 10px;
-   color: rgb(198, 140, 140);
+   color: #000000;
+   
+}
+#gridB{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(2,220px);
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+    cursor: pointer;
+
+   
+   
+  
+   
+    
+   
+
+}
+#gridB>div{
+    border-radius: 20px;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(2,300px);
+ 
+   
+  
+
+
+}
+#gridABimg{
+    width: 100%;
+
+}
+#gridB>div>h4{
+    text-align: center;
+    font-family: "Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-weight: 200;
+}
+.wardrope{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,220px);
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+    cursor: pointer;
+}
+
+.wardrope>img{
+    width: 100%;
+    
+}
+.toppick{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,220px);
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+    cursor: pointer;
+}
+
+.toppick>img{
+    width: 100%;
+    
 }

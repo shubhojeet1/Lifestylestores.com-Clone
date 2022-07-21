@@ -64,3 +64,8 @@ resume = () =>{
   clearInterval(myTimer);
   myTimer = setInterval(function(){plusSlides(slideIndex)}, 4000);
 }
+
+document.querySelector(nav-logo).addEventListener("click",myfun)
+function myfun(){
+    window.location.href="index.html"
+}

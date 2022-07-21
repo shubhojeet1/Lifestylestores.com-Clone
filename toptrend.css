@@ -1,0 +1,239 @@
+.toptrends{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+    cursor: pointer;
+}
+.toptrends>img{
+    width: 100%;
+}
+.toptrends>div>h4{
+    text-align: center;
+    font-family: "Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-weight: 200;
+}
+.ethenic{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+    cursor: pointer;
+
+}
+.ethenic>img{
+    width: 100%;
+
+}
+.flash{
+    margin: auto;
+    padding-left: 140px;
+}
+.flash>img{
+    width: 90%;
+}
+.toptstyles{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+    cursor: pointer;
+
+}
+.toptstyles>img{
+width: 80%;
+}
+.toptstyles>div>h2{
+   
+    font-family: "Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-weight: 200;
+}
+.toptstyles>div>p{
+   
+    font-family: "Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-weight: 200;
+    font-size: small;
+}
+.button>button{
+    width: 20%;
+    height: 50px;
+    color: orange;
+    border: 1px solid grey;
+    background-color: white;
+    margin: auto;
+    display: block;
+    cursor:grab;
+}
+.button>button:hover{
+    background-color: grey;
+
+}
+.bestsell{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+    cursor: pointer;
+
+}
+.bestsell>img{
+width: 80%;
+}
+.depart{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+    cursor: pointer;
+
+}
+.depart>img{
+width: 80%;
+}
+.apk{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+ 
+    
+    gap: 20px;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    padding-top: 30px;
+    cursor: pointer;
+
+}
+.apk>div{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+    
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+    cursor: pointer;
+    
+}
+.apk>div:nth-child(1){
+    margin-right: 120px;
+}
+#site-search{
+    width: 32em;
+    border-radius: 0;
+    background-color: grey;
+    
+    
+}
+
+::placeholder{
+    font-family: "Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-weight: 400;
+}
+button{
+    border-radius: 0;
+   background-color: #000000;
+    display: block;
+    width: 80px;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    height: 30px;
+
+}
+button:hover{
+    background-color: #717171;
+}
+  .shop>p{
+      padding-left: 140px;
+      font-family: "Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+      font-weight: 150;
+     
+  }
+  .lastline{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+    
+    gap: 20px;
+    width: auto;
+    margin: auto;
+    padding-top: 30px;
+    cursor: pointer;
+   
+  }
+
+  .lastline>div{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+
+   
+    gap: 10px;
+    width: auto;
+   
+    padding-top: 30px;
+    cursor: pointer;
+  
+
+
+  }
+  .lastline>div>p{
+   
+    font-family: "Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-weight: 220;
+    
+ 
+ 
+
+    
+   
+}
+
+.lastline>div>img{
+    width: 30%;
+    padding-left: 70px;
+    padding-top: 25px;
+}
+.bottomline{
+    
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+         gap: 20px;
+        width: auto;
+        margin: auto;
+        padding-top: 30px;
+        cursor: pointer;
+       
+      
+}
+.bottomline>div{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  
+}
+.bottomline>div:nth-child(1)>img{
+    width: 35%;
+    padding-left: 70px;
+    padding-top: 32px;
+    
+}
+.bottomline>div>p{
+    font-family: "Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-weight: 150;
+    padding-top: 30px;
+}
+.bottomline>div:nth-child(2)>img{
+    width: 55%;
+    padding-left: 70px;
+    
+}
