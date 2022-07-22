@@ -131,7 +131,10 @@ width: 80%;
 #site-search{
     width: 32em;
     border-radius: 0;
-    background-color: grey;
+    height: 40px;
+    padding: 10px;
+    background-color: rgb(239, 232, 232);
+    border: 0;
     
     
 }
@@ -139,6 +142,7 @@ width: 80%;
 ::placeholder{
     font-family: "Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
     font-weight: 400;
+    
 }
 button{
     border-radius: 0;
@@ -147,7 +151,8 @@ button{
     width: 80px;
     border: none;
     color: white;
-    border-radius: 20px;
+    margin-right: 80px;
+ 
     height: 30px;
 
 }
@@ -236,4 +241,36 @@ button:hover{
     width: 55%;
     padding-left: 70px;
     
+}
+.apkb{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.signup_model{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0,0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    display: grid;
+    place-items: center;
+    opacity: 0;
+    visibility: hidden;
+}
+.modal_box{
+    background-color: white;
+    width: 50%;
+    height: 360px;
+
+}
+#searcha{
+    width: 112%;
+    height: 30px;
+    background-color: #e7dfdf;
+    border: 0;
+    margin-top: 8px;
 }

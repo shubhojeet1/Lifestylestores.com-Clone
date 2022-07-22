@@ -1,0 +1,27 @@
+.womengrid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+  
+    padding-top: 40px;
+    padding-left: 20px;
+    
+}
+.womengrid>div{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+   
+    grid-template-rows: repeat(4,100px);
+
+    
+}
+.womengrid>div>img{
+    width: 300%;
+    cursor: pointer;
+}
+.womengrid>div>h3{
+    padding-top: 320px;
+    font-family: "Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-weight: 300;
+    text-align: center;
+}
