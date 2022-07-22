@@ -59,10 +59,15 @@ h4{
 }
 nav{
     
-    justify-content: space-around;
+   justify-content: space-around;
    align-items: center;
    display: flex;
    background-color: rgb(246, 240, 240);
+   position: sticky;
+   width: 100%;
+   top: 0;
+   z-index: 9999;
+   transition: .5s ease-in-out;
    
  
   
@@ -81,6 +86,8 @@ img{
 .links-hidden{
    display: block;
    color: black;
+   font-family: "Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+   font-weight: 300;
 }
 .links{
    display: inline-block;

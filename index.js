@@ -69,3 +69,13 @@ document.querySelector(nav-logo).addEventListener("click",myfun)
 function myfun(){
     window.location.href="index.html"
 }
+
+
+// const signInModal = document.getElementById("signmodel");
+// console.log(signInModal)
+// signInModal.onclick(){
+//   alert("working")
+// }
+// document.getElementById("signmodel").onclick(){
+//   alert("workimg")
+// }
